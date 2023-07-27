@@ -1,0 +1,42 @@
+.navegador{
+    background-color: $fondo-primario;
+}
+
+.tarjeta-nav{
+    background-color: $fondo-primario;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    ul{
+        list-style: none;
+        display: flex;
+        justify-content: end;
+        li a{
+            display: block;
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            font-size: 16px;
+            padding: 10px 20px; 
+            font-family:'Montserrat';
+            &:hover{
+                color: #a2686c;
+            }
+         }
+        } 
+    img{
+        margin: 10px;
+        width: 5%;
+        height: 5%;
+        display: flex;
+        }  
+
+    .menu{
+        display: none;
+        } 
+}
+
+  

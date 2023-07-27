@@ -1,0 +1,101 @@
+.nosotros-gral{
+    display: grid;
+    grid-template-columns: 3fr 3fr;; 
+    column-gap: 25px;
+    padding: 40px;
+    text-align: center;
+    font-family: 'Montserrat'; 
+    margin: 60px;
+    
+}
+
+.nosotros-gral .nosotros .que-hacemos{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+.foto-quehacemos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    img {
+            width: 500px;
+            height: 500px;
+    }
+}
+
+.nosotros-titulo{
+    color: #a2686c;
+    font-family: "Montserrat";
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 100px 0px 0px;
+       
+}
+
+.quehacemos-titulo{
+    color: #a2686c;
+    font-family: "Montserrat";
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 100px 0px 0px;
+}
+
+
+.nosotros-subtitulo{
+    font-size: 16px;
+    text-align: center;
+    font-family: "Montserrat";
+    color: black;  
+    margin: 5px;
+}
+
+.nosotros-subtitulo2{
+    font-size: 16px;
+    text-align: center;
+    font-family: "Montserrat";
+    color: black;
+    margin: 5px;  
+    
+}
+
+
+.quehacemos-subtitulo{
+    font-size: 16px;
+    text-align: center;
+    font-family: "Montserrat";
+    color: black;  
+    margin: 5px;
+}
+
+.quehacemos-subtitulo2{
+    font-size: 16px;
+    text-align: center;
+    font-family: "Montserrat";
+    color: black;
+    margin: 5px;  
+}
+
+.imalogocompleto img{
+    width: 400px;
+    height: 400px;
+
+}
+
+.titulo-contacto{
+    text-align: center;
+    margin-top: 70px;
+    padding: 30px;
+    color: #1a0811;
+    font-family:'Montserrat';
+    
+}

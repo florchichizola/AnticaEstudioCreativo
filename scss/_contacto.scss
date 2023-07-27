@@ -1,0 +1,37 @@
+.titulo-contacto{
+    margin: 0% 0px 0px;
+    padding: 50px 0px 0px;
+    text-align: center;
+    color: #1a0811;
+    font-family:'Montserrat';
+    font-size: 28px;
+}
+.contacto{
+    display: grid;
+    grid-template-columns: 3fr 2fr;; 
+    column-gap: 25px;
+    font-family: 'Montserrat'; 
+    padding: 20px;
+    margin: 40px;
+}
+
+.direccion{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    
+}
+
+.redes-contacto i{
+        font-size: 32px;
+        margin: 10px;
+}
+
+.mapa{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+}

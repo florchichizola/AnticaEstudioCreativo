@@ -1,0 +1,30 @@
+.loprincipal{
+    display: grid;
+    grid-template-columns: 3fr 3fr;;
+    column-gap: 25px;
+    padding: 70px;
+    margin: 20px;
+    align-items: center;
+    justify-items: center;
+    .imagenflor img{
+        width: 400px;
+        height: 400px;
+    }
+}
+
+.contenido-principal{
+    text-align: left;
+    font-family: 'Montserrat'  
+}
+
+.titulo-principal{
+    color: #1a0811;
+    font-size: 16px;
+    font-weight: bold;
+       
+}
+
+.subtitulo-principal p{
+    font-size: 8px;
+    color: black;  
+}

@@ -1,0 +1,38 @@
+.titulo-portfolio{
+    text-align: center;
+    margin-top: 70px;
+    padding: 30px;
+    color: #1a0811;
+    font-family:'Montserrat';
+    
+}
+
+.rectangulos-port{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    padding: 30px;
+    margin: 10apx;
+    justify-items: center;
+    align-items: center;
+}
+
+.rectangulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Montserrat';
+    font-size: 11px;
+}
+
+
+.rectangulo img{
+    width: 100%;
+    border-radius: 5px;
+}
+

@@ -1,0 +1,43 @@
+.piedepagina{
+    background-color: #a2686c;
+    font-family: 'Montserrat';
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    column-gap: 25px;
+    padding: 30px;
+    align-items: center;
+    justify-items: center; 
+    h4{
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: bold;
+        
+    }
+    p{
+        color: #ffffff;
+        font-size: 12px;
+    }
+}
+ .redes{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.redes-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+ .redes i{
+    font-size: 32px;
+    margin: 10px;  
+}
+
